@@ -10,13 +10,14 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @NoArgsConstructor
 public class BookingResponse {
+
     private Long id;
 
     private LocalDate checkInDate;
 
     private LocalDate checkOutDate;
 
-    private String guestFullName;
+    private String guestName;
 
     private String guestEmail;
 
